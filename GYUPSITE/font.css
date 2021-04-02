@@ -1,0 +1,12 @@
+:root {
+    --main-color: rgb(155, 124, 226);
+    --main-black: rgb(65, 65, 65);
+}
+@font-face {
+    font-family: "Kaisotai";
+    src: url("./Kaiso-Next-B.otf") format("OpenType");
+}
+body{
+    margin: 0;
+    font-family: "Kaisotai";
+}
