@@ -1,0 +1,313 @@
+@media (orientation: landscape){
+header{
+    padding: 18%;
+    background-color: var(--main-color);
+    text-align: center;
+    position: relative;
+}
+.topimg{
+    width: 28%;
+    position: absolute;
+    top: 21.5vw;
+    right: 35.5vw;
+}
+.icon1{
+    width: 20%;
+    position: absolute;
+    bottom: 14vw;
+    left: 40vw;
+}
+.scroll-warp{
+    animation: scroll 0.5s infinite alternate ease-in-out;
+    display: inline-block;
+    width: 8%;
+    position: absolute;
+    left: 90vw;
+    top: 27vw;
+}
+.twitter{
+    width: 4%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+@keyframes scroll {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(10px);
+    }
+  }
+.contact{
+    width: 20%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    display: table;
+    margin: 0 auto;
+    border-spacing: .2vw;
+    position: relative;
+    top: -4vw;
+}
+.navitem{
+    position: relative;
+    top: 0;
+    background-color: var(--main-black);
+    color: var(--main-color);
+    text-decoration: none;
+    width: 16vw;
+    height: 8vw;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.5vw;
+    position: relative;
+    transition: all .2s;
+}
+.navitem::before {
+    position: absolute;
+    top: 0.6vw;
+    left: 0.4vw;
+    content: "";
+    background-image: url("../imgs/triangle.png");
+    width: 2vw;
+    height: 2vw;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section>h1{
+    font-size: 3.5vw;
+    color: var(--main-black);
+    margin-top: -2vw; 
+    text-align: center;
+}
+.navitem:hover {
+    position: relative;
+    top: -0.7vw;
+}
+.grid-wrap{
+    color: var(--main-black);
+    font-family: sans-serif;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30vw 30vw;
+    gap: 5vw;
+    grid-template-rows: 7vw 7vw;
+}
+.grid-item{
+    padding: 1vw;
+    padding-right: 0vw;
+    border: .15vw solid var(--main-color);
+    width: 100%;
+    height: 100%;
+    border-radius: .5vw;
+    position: relative;
+    top: 0;
+    transition: all .2s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+    text-decoration: none;
+    font-size: 1vw;
+}
+.grid-item:hover {
+    position: relative;
+    top: -0.7vw;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.grid-item>p{
+    color:crimson;
+}
+.grid-item>img{
+    width: 15vw;
+    position: absolute;
+    right: -3vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.grid-item{
+    color: var(--main-black);
+}
+.footeritem{
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.footeritem>a{
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--main-black);
+    text-decoration: none;
+    border: .1vw solid white;
+    padding: .5vw;
+    background-color: rgb(150,150,150);
+    border-bottom: 0;
+}
+footer>p{
+    color: white;
+    background-color: var(--main-black);
+    text-align: center;
+}
+}
+
+@media (orientation: portrait){
+    header{
+        padding: 18%;
+        background-color: var(--main-color);
+        text-align: center;
+        position: relative;
+    }
+    .topimg{
+        width: 28%;
+        position: absolute;
+        top: 21.5vw;
+        right: 35.5vw;
+    }
+    .icon1{
+        width: 20%;
+        position: absolute;
+        bottom: 14vw;
+        left: 40vw;
+    }
+    .scroll-warp{
+        animation: scroll 0.5s infinite alternate ease-in-out;
+        display: inline-block;
+        width: 8%;
+        position: absolute;
+        left: 90vw;
+        top: 27vw;
+    }
+    .twitter{
+        width: 4%;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    @keyframes scroll {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(10px);
+        }
+      }
+    .contact{
+        width: 20%;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        border-spacing: .2vw;
+        position: relative;
+        top: -4vw;
+    }
+    .navitem{
+        position: relative;
+        top: 0;
+        background-color: var(--main-black);
+        color: var(--main-color);
+        text-decoration: none;
+        width: 23vw;
+        height: 10vw;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 2.5vw;
+        position: relative;
+        transition: all .2s;
+    }
+    .navitem::before {
+        position: absolute;
+        top: 0.6vw;
+        left: 0.4vw;
+        content: "";
+        background-image: url("../imgs/triangle.png");
+        width: 2vw;
+        height: 2vw;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    section>h1{
+        font-size: 3.5vw;
+        color: var(--main-black);
+        margin-top: -2vw; 
+        text-align: center;
+    }
+    .navitem:hover {
+        position: relative;
+        top: -0.7vw;
+    }
+    .grid-wrap{
+        color: var(--main-black);
+        font-family: sans-serif;
+        display: grid;
+        justify-content: center;
+        gap: 10vw;
+        grid-template-rows: 7vw 7vw;
+        padding-bottom: 10vw;
+    }
+    .grid-item{
+        padding: 1vw;
+        padding-right: 0vw;
+        border: .15vw solid var(--main-color);
+        width: 250%;
+        height: 150%;
+        border-radius: .5vw;
+        position: relative;
+        top: 0;
+        right: 18vw;
+        transition: all .2s;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+        text-decoration: none;
+        font-size: 2vw;
+    }
+    .grid-item:hover {
+        position: relative;
+        top: -0.7vw;
+    }
+    p{
+        padding: 0px;
+        margin: 0px;
+    }
+    .grid-item>p{
+        color:crimson;
+    }
+    .grid-item>img{
+        width: 15vw;
+        position: absolute;
+        right: -3vw;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .grid-item{
+        color: var(--main-black);
+    }
+    .footeritem{
+        margin-top: 5vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+    .footeritem>a{
+        font-family: sans-serif;
+        text-align: center;
+        color: var(--main-black);
+        text-decoration: none;
+        border: .1vw solid white;
+        padding: .5vw;
+        background-color: rgb(150,150,150);
+        border-bottom: 0;
+    }
+    footer>p{
+        color: white;
+        background-color: var(--main-black);
+        text-align: center;
+    }
+    }
